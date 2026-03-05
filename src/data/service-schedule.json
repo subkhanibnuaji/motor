@@ -1,0 +1,47 @@
+[
+  {
+    "km": 1000,
+    "items": ["Ganti oli mesin (Yamalube 10W-40)", "Cek & adjust rantai (jika ada)", "Cek umum semua sistem", "Adjust idle speed"],
+    "estimatedCost": { "dealer": 100000, "bengkel": 60000 }
+  },
+  {
+    "km": 4000,
+    "items": ["Ganti oli mesin", "Cek filter udara", "Cek tekanan ban", "Cek fungsi lampu & klakson"],
+    "estimatedCost": { "dealer": 100000, "bengkel": 65000 }
+  },
+  {
+    "km": 8000,
+    "items": ["Ganti oli mesin", "Bersihkan filter udara", "Cek busi (gap & kondisi)", "Cek level coolant", "Cek kampas rem"],
+    "estimatedCost": { "dealer": 120000, "bengkel": 80000 }
+  },
+  {
+    "km": 12000,
+    "items": ["Ganti oli mesin", "Ganti filter udara", "Cek rem depan & belakang", "Cek kondisi ban", "Cek aki", "Cek semua kabel & soket"],
+    "estimatedCost": { "dealer": 180000, "bengkel": 120000 }
+  },
+  {
+    "km": 16000,
+    "items": ["Ganti oli mesin", "Ganti oli gardan (final gear oil)", "Cek CVT (bunyi, belt condition)", "Cek coolant level", "Cek suspensi"],
+    "estimatedCost": { "dealer": 200000, "bengkel": 140000 }
+  },
+  {
+    "km": 20000,
+    "items": ["Ganti oli mesin", "GANTI V-BELT", "GANTI ROLLER", "GANTI SLIDER", "Cek per CVT", "Cek semua bearing", "Cek total kelistrikan"],
+    "estimatedCost": { "dealer": 500000, "bengkel": 350000 }
+  },
+  {
+    "km": 24000,
+    "items": ["Ganti oli mesin", "Ganti coolant", "Cek selang radiator", "Cek filter udara", "Cek rem", "Cek ban"],
+    "estimatedCost": { "dealer": 220000, "bengkel": 150000 }
+  },
+  {
+    "km": 32000,
+    "items": ["Ganti oli mesin", "Ganti busi (iridium recommended)", "Cek injector", "Cek throttle body", "Ganti filter udara", "Cek oli gardan"],
+    "estimatedCost": { "dealer": 250000, "bengkel": 170000 }
+  },
+  {
+    "km": 40000,
+    "items": ["Major service lengkap", "Ganti oli mesin", "Ganti V-belt + roller + slider", "Ganti coolant", "Ganti oli gardan", "Cek semua bearing & seal", "Cek per CVT", "Cek seluruh kelistrikan"],
+    "estimatedCost": { "dealer": 1200000, "bengkel": 800000 }
+  }
+]

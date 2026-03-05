@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0D1B2A;
+  --color-navy-light: #1B2838;
+  --color-racing-red: #E63946;
+  --color-amber: #F4A261;
+  --color-ev-green: #06D6A0;
+  --color-yamaha-blue: #0066CC;
+  --color-info-blue: #118AB2;
+  --color-ice-orange: #FF6B35;
+  --color-ev-badge: #06D6A0;
+  --color-both-purple: #7B68EE;
+  --color-surface-light: #FFFFFF;
+  --color-surface-dark: #1B2838;
+  --color-muted: #6C757D;
+
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-muted);
+  border-radius: 3px;
+}
+
+/* MDX content styling */
+.mdx-content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+.dark .mdx-content h2 {
+  border-bottom-color: #374151;
+}
+.mdx-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+.mdx-content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+.mdx-content ul,
+.mdx-content ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+.mdx-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+.mdx-content ul li {
+  list-style-type: disc;
+}
+.mdx-content ol li {
+  list-style-type: decimal;
+}
+.mdx-content strong {
+  font-weight: 600;
+}
+.mdx-content code {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  background: #f3f4f6;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+}
+.dark .mdx-content code {
+  background: #1f2937;
+}
+.mdx-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+.mdx-content th,
+.mdx-content td {
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+.dark .mdx-content th,
+.dark .mdx-content td {
+  border-color: #374151;
+}
+.mdx-content th {
+  background: #f9fafb;
+  font-weight: 600;
+}
+.dark .mdx-content th {
+  background: #1f2937;
+}
+.mdx-content blockquote {
+  border-left: 4px solid var(--color-yamaha-blue);
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  background: #eff6ff;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.dark .mdx-content blockquote {
+  background: #1e293b;
+}
