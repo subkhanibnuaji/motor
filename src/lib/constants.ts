@@ -1,0 +1,153 @@
+import type { DomainConfig } from "./types";
+
+export const SITE_NAME = "Moto Nexus";
+export const SITE_DESCRIPTION =
+  "Personal Motorcycle Knowledge Hub — Yamaha Lexi LX 155 & Motor Indonesia";
+export const SITE_URL = "https://moto-nexus.vercel.app";
+
+export const DOMAINS: DomainConfig[] = [
+  {
+    id: "my-lexi",
+    title: "My Lexi LX 155",
+    shortTitle: "My Lexi",
+    description: "Owner's hub — spesifikasi, jadwal servis, tips harian",
+    icon: "Bike",
+    color: "#0066CC",
+    order: 0,
+  },
+  {
+    id: "jenis-motor",
+    title: "Jenis & Kategori Motor",
+    shortTitle: "Jenis Motor",
+    description: "Matic, sport, bebek, adventure, listrik — semua kategori motor Indonesia",
+    icon: "LayoutGrid",
+    color: "#118AB2",
+    order: 1,
+  },
+  {
+    id: "mesin",
+    title: "Mesin & Powertrain",
+    shortTitle: "Mesin",
+    description: "Cara kerja mesin, Blue Core, VVA, fuel injection, cooling system",
+    icon: "Cog",
+    color: "#E63946",
+    order: 2,
+  },
+  {
+    id: "transmisi",
+    title: "Transmisi",
+    shortTitle: "Transmisi",
+    description: "CVT deep dive, manual transmission, tuning & upgrade",
+    icon: "Settings",
+    color: "#F4A261",
+    order: 3,
+  },
+  {
+    id: "chassis-ban",
+    title: "Chassis, Suspensi & Ban",
+    shortTitle: "Chassis & Ban",
+    description: "Frame, suspensi, ban, velg — panduan lengkap",
+    icon: "Circle",
+    color: "#2A9D8F",
+    order: 4,
+  },
+  {
+    id: "rem",
+    title: "Sistem Rem",
+    shortTitle: "Rem",
+    description: "Disc brake, drum, ABS, CBS — keselamatan berkendara",
+    icon: "ShieldCheck",
+    color: "#E76F51",
+    order: 5,
+  },
+  {
+    id: "kelistrikan",
+    title: "Kelistrikan & Elektronik",
+    shortTitle: "Kelistrikan",
+    description: "Aki, ECU, lighting, Smart Key, Y-Connect, diagnostics",
+    icon: "Zap",
+    color: "#F4A261",
+    order: 6,
+  },
+  {
+    id: "body-aksesoris",
+    title: "Body, Ergonomi & Aksesoris",
+    shortTitle: "Body & Aksesoris",
+    description: "Ergonomi, bagasi, aksesoris, safety gear",
+    icon: "Package",
+    color: "#6C757D",
+    order: 7,
+  },
+  {
+    id: "finansial",
+    title: "Finansial & Kalkulasi",
+    shortTitle: "Finansial",
+    description: "Kredit, TCO, depresiasi, asuransi, pajak, BBM vs listrik",
+    icon: "Calculator",
+    color: "#06D6A0",
+    order: 8,
+  },
+  {
+    id: "administrasi",
+    title: "Regulasi & Administrasi",
+    shortTitle: "Administrasi",
+    description: "STNK, BPKB, SIM, pajak, balik nama, uji emisi",
+    icon: "FileText",
+    color: "#118AB2",
+    order: 9,
+  },
+  {
+    id: "panduan-beli",
+    title: "Panduan Beli Motor",
+    shortTitle: "Panduan Beli",
+    description: "Beli baru, bekas, motor listrik — tips & checklist lengkap",
+    icon: "ShoppingCart",
+    color: "#E63946",
+    order: 10,
+  },
+  {
+    id: "perawatan",
+    title: "Perawatan & Perbaikan",
+    shortTitle: "Perawatan",
+    description: "Servis berkala, oli, common problems, DIY, emergency guide",
+    icon: "Wrench",
+    color: "#F4A261",
+    order: 11,
+  },
+  {
+    id: "motor-listrik",
+    title: "Motor Listrik Deep Dive",
+    shortTitle: "Motor Listrik",
+    description: "Teknologi EV, landscape Indonesia, baterai, subsidi, ICE vs EV",
+    icon: "BatteryCharging",
+    color: "#06D6A0",
+    order: 12,
+  },
+  {
+    id: "riding-safety",
+    title: "Riding Skills & Safety",
+    shortTitle: "Riding & Safety",
+    description: "Teknik berkendara, safety tips, touring guide",
+    icon: "Shield",
+    color: "#0D1B2A",
+    order: 13,
+  },
+  {
+    id: "market-tren",
+    title: "Market & Tren",
+    shortTitle: "Market",
+    description: "Data penjualan, tren motor Indonesia, prediksi market",
+    icon: "TrendingUp",
+    color: "#7B68EE",
+    order: 14,
+  },
+];
+
+export const DOMAIN_MAP = Object.fromEntries(DOMAINS.map((d) => [d.id, d]));
+
+export const CONTENT_TAG_LABELS: Record<string, { label: string; color: string }> = {
+  ice: { label: "ICE", color: "#FF6B35" },
+  ev: { label: "EV", color: "#06D6A0" },
+  both: { label: "ICE & EV", color: "#7B68EE" },
+  general: { label: "Umum", color: "#6C757D" },
+};

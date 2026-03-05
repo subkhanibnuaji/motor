@@ -1,0 +1,10 @@
+[
+  { "category": "Honda Matic (Beat/Vario)", "rates": [12, 8, 8, 7, 7] },
+  { "category": "Yamaha MAXI (NMAX/Lexi)", "rates": [14, 9, 9, 8, 8] },
+  { "category": "Yamaha Sport (R15/R25)", "rates": [16, 10, 10, 9, 9] },
+  { "category": "Honda Sport (CBR)", "rates": [15, 10, 10, 8, 8] },
+  { "category": "Suzuki", "rates": [18, 12, 12, 10, 10] },
+  { "category": "Kawasaki Ninja 250", "rates": [14, 9, 9, 8, 8] },
+  { "category": "Motor Listrik (brand ternama)", "rates": [22, 15, 15, 12, 12] },
+  { "category": "Motor Listrik (no-name)", "rates": [35, 20, 20, 15, 15] }
+]

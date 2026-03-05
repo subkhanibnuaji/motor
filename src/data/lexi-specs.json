@@ -1,0 +1,111 @@
+{
+  "variants": [
+    {
+      "name": "Lexi LX 155 Standard",
+      "priceOTR": 26800000,
+      "features": ["Full LCD", "LED Full", "SSS", "Power Outlet", "Flat Deck"]
+    },
+    {
+      "name": "Lexi LX 155 S Version",
+      "priceOTR": 28600000,
+      "features": ["Full LCD", "LED Full", "SSS", "Power Outlet", "Flat Deck", "Smart Key System", "Sub-tank Rear Suspension"]
+    },
+    {
+      "name": "Lexi LX 155 Connected/ABS",
+      "priceOTR": 31450000,
+      "features": ["Full LCD", "LED Full", "SSS", "Power Outlet", "Flat Deck", "Smart Key System", "Y-Connect", "ABS", "Disc Brake Belakang"]
+    }
+  ],
+  "specs": [
+    {
+      "category": "Mesin",
+      "items": [
+        { "label": "Tipe Mesin", "value": "Liquid-cooled, 4-stroke, SOHC, 4-valve" },
+        { "label": "Teknologi", "value": "Blue Core + VVA (Variable Valve Actuation)" },
+        { "label": "Kapasitas", "value": "155.9 cc" },
+        { "label": "Bore x Stroke", "value": "58.0 x 58.7 mm" },
+        { "label": "Rasio Kompresi", "value": "11.6 : 1" },
+        { "label": "Daya Maksimum", "value": "15.15 HP @ 8000 RPM" },
+        { "label": "Torsi Maksimum", "value": "14.2 Nm @ 6500 RPM" },
+        { "label": "Sistem Bahan Bakar", "value": "Fuel Injection (FI)" },
+        { "label": "Sistem Starter", "value": "Electric + SSS (Stop & Start System)" },
+        { "label": "Pendinginan", "value": "Liquid-cooled (Radiator)" }
+      ]
+    },
+    {
+      "category": "Transmisi",
+      "items": [
+        { "label": "Tipe", "value": "CVT (Continuously Variable Transmission)" },
+        { "label": "Kopling", "value": "Automatic Centrifugal Clutch" }
+      ]
+    },
+    {
+      "category": "Rangka & Suspensi",
+      "items": [
+        { "label": "Tipe Rangka", "value": "Backbone" },
+        { "label": "Suspensi Depan", "value": "Telescopic Fork" },
+        { "label": "Suspensi Belakang", "value": "Unit Swing (Sub-tank pada S & Connected)" }
+      ]
+    },
+    {
+      "category": "Rem",
+      "items": [
+        { "label": "Rem Depan", "value": "Disc Brake, Hydraulic" },
+        { "label": "Rem Belakang (Std/S)", "value": "Drum Brake" },
+        { "label": "Rem Belakang (Connected)", "value": "Disc Brake" },
+        { "label": "ABS", "value": "Tersedia pada varian Connected/ABS" }
+      ]
+    },
+    {
+      "category": "Ban",
+      "items": [
+        { "label": "Ban Depan", "value": "110/70-14 M/C Tubeless" },
+        { "label": "Ban Belakang", "value": "130/70-13 M/C Tubeless" },
+        { "label": "Tekanan Ban Depan", "value": "200 kPa" },
+        { "label": "Tekanan Ban Belakang", "value": "225 kPa" }
+      ]
+    },
+    {
+      "category": "Dimensi",
+      "items": [
+        { "label": "Panjang x Lebar x Tinggi", "value": "1970 x 720 x 1135 mm" },
+        { "label": "Jarak Sumbu Roda", "value": "1350 mm" },
+        { "label": "Tinggi Jok", "value": "770 mm" },
+        { "label": "Jarak Terendah", "value": "145 mm" },
+        { "label": "Berat Kosong", "value": "~118-122 kg (per varian)" }
+      ]
+    },
+    {
+      "category": "Kapasitas",
+      "items": [
+        { "label": "Tangki BBM", "value": "5.5 Liter" },
+        { "label": "Oli Mesin", "value": "0.85 Liter" },
+        { "label": "Bagasi", "value": "20.3 Liter" },
+        { "label": "BBM Rekomendasi", "value": "Pertamax (RON 92+)" }
+      ]
+    },
+    {
+      "category": "Kelistrikan",
+      "items": [
+        { "label": "Aki", "value": "MF 12V, GTZ6V / YTZ7" },
+        { "label": "Lampu Depan", "value": "LED" },
+        { "label": "Lampu Belakang", "value": "LED" },
+        { "label": "Speedometer", "value": "Full LCD Digital" }
+      ]
+    }
+  ],
+  "colors": [
+    "Metallic Black",
+    "Prestige Red",
+    "Matte Grey",
+    "Matte Red",
+    "Elixir Dark Silver",
+    "Magma Black"
+  ],
+  "warranty": "5 tahun / 50.000 km (frame, FI, DiASil cylinder, forged piston)",
+  "fuelConsumption": {
+    "claimed": 45,
+    "real": 40,
+    "unit": "km/L"
+  }
+}
